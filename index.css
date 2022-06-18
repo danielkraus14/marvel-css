@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(../images/marvel-5.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.font_cover {
+    background-color: #202020;
+    opacity: 0.9;
+    height: 90.2vh;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: multiply;
+    display: flex;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Source Sans Pro';
+    color: #fff;
+    opacity: 1;
+    font-size: 15rem;
+    margin: 0;
+    padding: auto;
+}
+
+.container_links {
+    height: 30rem;
+    width: 100%;
+    background-color: #202020;
+    justify-content: center;
+}
+
+.link_display {
+    width: 32.9%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link_display a{
+    text-decoration: none;
+}
+
+.icon_img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.links_text {
+    color: #fff;
+    transform: scale(1);
+    transition: all ease-out 0.2s;
+    text-decoration: none;
+}
+
+.links_text:hover {
+    color: #EF141E;
+    transform: scale(1.2);
+}

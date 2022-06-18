@@ -1,0 +1,153 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background-color: #3d3c3c;
+}
+
+.hero_title_container {
+    padding-top: 5.9rem;
+    height: 4rem;
+
+}
+
+.hero_title_container h2 {
+    color: #fff;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0rem 2.7rem;
+}
+
+.main_hero_container {
+    background-color: rgba(237, 29, 35,0.3);
+    display: grid;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-items: center;
+    width: 100vw;
+    grid-template-columns: repeat(4, 1fr) ;
+
+    
+}
+
+
+@media (max-width: 1700px) {
+    .main_hero_container {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1300px) {
+    .main_hero_container {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 850px) {
+    .main_hero_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.card_hero {
+    background-color: #3d3c3c;
+    width: 22rem;
+    margin: 2.5rem;
+    transition: all ease-in-out 0.3s;
+    border-radius: 5px;
+    min-width: 20rem;
+}
+
+.card_hero:hover {
+    box-shadow: 2px 5px 5px #EF141E;
+    transform: translateY(-10px);
+}
+
+.content_img {
+    width: 100%;
+    height: 28rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.content_img img {
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1);
+    transition: all ease-out 0.5s;
+}
+
+.card_hero:hover img {
+    transform: scale(1.3);
+}
+
+.content_card {
+    margin-top: 2rem;
+    background-color: #3d3c3c;
+    align-items: center;
+    color: #fff;
+    text-align: center ;
+    padding: 1rem;
+    box-shadow: inset 0 0 0 0 #ED1D23;
+    transition: all ease-out 0.3s;
+    outline: none;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card_hero:hover .content_card {
+    box-shadow: inset 0 272px 0 0 #ED1D23;
+}
+
+.wolwerine {
+    width: 22rem;
+}
+
+.hulk {
+    width: 14rem;
+}
+
+.ironman {
+    width: 11rem;
+}
+
+.thor {
+    width: 18rem;
+}
+
+.dr_strange {
+    width: 19rem;
+}
+
+.black_panther {
+    width: 24rem;
+}
+
+.learn_more_hero {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    text-decoration: none;
+    color: #ED1D23;
+    background-color: #fff;
+    padding: 10px 35px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    transition: all ease-in-out 0.2s;
+}
+
+
+
+
+
+
+
